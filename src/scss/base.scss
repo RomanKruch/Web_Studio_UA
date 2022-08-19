@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    position: relative;    
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+      display: block;
+      border: 0;
+      background-color: transparent;
+      cursor: pointer;
+}
+
+.container {
+    max-width: 94%;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+        width: 730px;
+    }
+
+    @media (min-width: 1200px) {   
+         width: 1180px;
+    }
+}
